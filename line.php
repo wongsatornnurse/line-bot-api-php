@@ -37,9 +37,10 @@ if ( sizeof($request_array['events']) > 0 )
      
      		$obj = json_decode($result);
      
-     		$reply_message = $result;
-    		 $reply_message = 'ติดเชื้อสะสม '. $obj->{'Confirmed'};
-    }
+     		//$reply_message = $result;
+    		 	$reply_message = 'ติดเชื้อสะสม '. $obj->{'Confirmed'};
+		    	$reply_message +='<BR>\r\n รักษาหายแล้ว '.$obj->{'Recovered'} คน;
+    		}
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
    }
    else
