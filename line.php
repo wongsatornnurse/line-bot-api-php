@@ -40,6 +40,9 @@ if ( sizeof($request_array['events']) > 0 )
      		//$reply_message = $result;
     		 	$reply_message = 'ติดเชื้อสะสม '. $obj->{'Confirmed'} .'คน รักษาหายแล้ว '.$obj->{'Recovered'} .'คน';
     		}
+	   if($text == "ชื่อ" || $text == "ชื่ออะไร" || $text == "ชื่ออะไรครับ"|| $text == "ชื่ออะไรคะ"){
+			$reply_message = 'ชื่อของฉันคือ วงศธร มาเอื้อย รหัสนิสิตคือ 61160072 อายุ 20ปี';
+		}
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
    }
    else
