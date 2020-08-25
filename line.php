@@ -47,7 +47,7 @@ if ( sizeof($request_array['events']) > 0 )
 			$reply_message = 'ผู้พัฒนาคือ วงศธร มาเอื้อย รหัสนิสิตคือ 61160072 อายุ 20ปี';
 		}
 	   if($text == "CDMA" || $text == "cdma" ){
-			$reply_message = 'CDMA คือ '+1,-3,-1,-1';
+			$reply_message = 'CDMA คือ +1,-3,-1,-1';
 		}
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
    }
