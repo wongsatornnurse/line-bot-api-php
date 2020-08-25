@@ -46,7 +46,7 @@ if ( sizeof($request_array['events']) > 0 )
 	   if($text == "ชื่อผู้พัฒนาไลน์บอท" || $text == "ผู้พัฒนาไลน์บอท" ){
 			$reply_message = 'ผู้พัฒนาคือ วงศธร มาเอื้อย รหัสนิสิตคือ 61160072 อายุ 20ปี';
 		}
-	   if($text == "CDMA" || $text == "cdma" ){
+	   if($text == "CDMA" || $text == "cdma" || $text == "Cdma" ){
 			$reply_message = 'CDMA คือ +1,-3,-1,-1';
 		}
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
