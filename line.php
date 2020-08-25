@@ -49,6 +49,10 @@ if ( sizeof($request_array['events']) > 0 )
 	   if($text == "CDMA" || $text == "cdma" || $text == "Cdma" ){
 			$reply_message = 'CDMA คือ +1,-3,-1,-1';
 		}
+	   if($text == "ราคาทองคำวันนี้" || $text == "ราคาทองวันนี้" || $text == "ราคาทอง" ){
+			$reply_message = 'ราคาคือ ';
+		}
+	   $str_msg = explode
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
    }
    else
